@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8">
+  <title>HackSprint 2025 — Register</title>
+</head>
+<body>
+  <header>
+    <h1>Registration</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="schedule.html">Schedule</a> |
+      <a href="rules.html">Rules</a> |
+      <a href="register.html">Register</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <h2>Sign Up</h2>
+    <form method="post" action="mailto:organizer@example.com" enctype="text/plain">
+      <label for="fullname">Full Name:</label><br>
+      <input id="fullname" name="fullname" type="text" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input id="email" name="email" type="email" required><br><br>
+
+      <label for="phone">Phone (optional):</label><br>
+      <input id="phone" name="phone" type="tel"><br><br>
+
+      <label for="college">College / Company:</label><br>
+      <input id="college" name="college" type="text" required><br><br>
+
+      <label for="team">Team Name (if any):</label><br>
+      <input id="team" name="team" type="text"><br><br>
+
+      <label for="skills">Skills / Roles:</label><br>
+      <textarea id="skills" name="skills" rows="4" cols="40" placeholder="e.g., frontend, backend, ML, UI/UX" required></textarea><br><br>
+
+      <button type="submit">Submit Registration</button>
+    </form>
+
+    <h3>Note</h3>
+    <p>This form uses <code>mailto:</code> to open your email client. For large-scale registration, use a server endpoint or Google Forms.</p>
+  </main>
+
+  <footer>
+    <hr>
+    <p><a href="index.html">Back to Home</a></p>
+    <p>&copy; 2025 HackSprint Team</p>
+  </footer>
+</body>
+</html>
